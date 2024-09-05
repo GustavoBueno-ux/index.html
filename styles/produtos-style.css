@@ -1,0 +1,102 @@
+:root {
+    --cor-preto: #000000;
+    --cor-branco: #f6f6f6;
+    --cor-verde: #48e5c2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 20%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 5%;
+}
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    color: var(--cor-verde);
+    text-decoration: none;
+}
+
+.apresentacao {
+    margin: 6% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 33px;
+    color: var(--cor-verde);
+}
+
+.botoeseimagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px;
+    text-align: center;
+}
+
+.imagens-botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.imagem-pizza {
+    width: 350px;
+}
+
+.imagem-vinho {
+    width: 350px;
+}
+
+.imagem-ceviche {
+    width: 350px;
+}
+
+.apresentacao__produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+    width: 1000px;
+    align-items: center;
+    margin-left: -22%;
+    margin-top: -5%;
+    margin-bottom: 4%;
+}
+
+.apresentacao__conteudo__link {
+    font-size: 42px;
+    text-decoration: none;
+    color: var(--cor-verde);
+}
+
+.botao-pizzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape {
+    padding: 24px;
+    background-color: var(--cor-verde);
+    color: var(--cor-preto);
+    text-align: center;
+    font-size: 25px;
+}

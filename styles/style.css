@@ -1,0 +1,98 @@
+:root {
+    --cor-preto: #000000;
+    --cor-branco: #f6f6f6;
+    --cor-verde: #48e5c2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 20%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 5%;
+}
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    color: var(--cor-verde);
+    text-decoration: none;
+}
+
+strong {
+    color: var(--cor-verde);
+}
+
+.apresentacao {
+    margin: 8% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.logo-bueno-forno {
+    width: 44%;
+}
+
+.titulo {
+    font-size: 33px;
+}
+
+.paragrafo {
+    font-size: 21px;
+}
+
+.subtitulo {
+    font-size: 32px;
+}
+
+.botoes-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.botao-rede-social {
+    display: flex;
+    justify-content: center;
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 13px;
+    text-decoration: none;
+    color: var(--cor-branco);
+    border: 2px solid var(--cor-verde);
+}
+
+.botao-rede-social:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-preto);
+    background-color: var(--cor-verde);
+    text-align: center;
+    font-size: 25px;
+}

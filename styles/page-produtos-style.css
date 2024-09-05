@@ -1,0 +1,151 @@
+:root {
+    --cor-branco: #f6f6f6;
+    --cor-preto: #000000;
+    --cor-verde: #48e5c2;
+    --cor-amarelo: #F0D818;
+    --cor-vermelho: red;
+}
+
+* {
+    margin: 0;
+    padding: o;
+}
+
+body {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 20%;
+}
+
+.cabecalho__link {
+    font-size: 24px;
+    color: var(--cor-verde);
+    text-decoration: none;
+}
+
+.apresentacao {
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.titulo {
+    color: var(--cor-verde);
+    font-size: 42px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.estoque {
+    color: var(--cor-amarelo);
+}
+
+.esgotado {
+    color: var(--cor-vermelho);
+}
+
+.fileira-produtos-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.img-maktub {
+    width: 350px;
+}
+
+.img-marguerita {
+    width: 350px;
+}
+
+.img-calabresa_acebolada {
+    width: 350px;
+}
+
+.fileira-produtos-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.img-bauru {
+    width: 350px;
+}
+
+.img-baianissima {
+    width: 350px;
+}
+
+.img-pomerode {
+    width: 350px;
+}
+
+.fileira-produtos-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.img-palmito {
+    width: 350px;
+}
+
+.img-baiana {
+    width: 350px;
+}
+
+.img-salame {
+    width: 350px;
+}
+
+.fileira-produtos-4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.img-seis_queijos {
+    width: 350px;
+}
+
+.img-amore_mio {
+    width: 350px;
+}
+
+.img-camarao {
+    width: 350px;
+}
+
+.apresentacao__conteudo__pizzas {
+    font-size: 33px;
+    color: var(--cor-branco);
+    text-align: center;
+    text-decoration: none;
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--cor-preto);
+    background-color: var(--cor-verde);
+    text-align: center;
+    font-size: 25px;
+}
